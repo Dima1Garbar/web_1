@@ -1,0 +1,40 @@
+.bar__information{  
+    position: absolute;
+    background-color: #1b2b31;
+    width: 100%;
+    height: 340px;
+}
+
+.bar__information__number{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1275px;
+    height: 57px;
+    color: #995437;
+    font-family: Vani;
+    font-size: 77px;
+    letter-spacing: 1.5px;
+    margin: 115px 319px 50px 329px;
+}
+
+.bar__information__text{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1260px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 1px;
+    margin: 0px 325px 115px 340px;
+
+    .bar__information__text_one{
+        margin-left: -30px;
+    }
+    .bar__information__text_four{
+        margin: 0 -15px 0 33px;
+    }
+}

@@ -1,0 +1,94 @@
+.team__leaders__title{
+    width: 617px;
+    height: 41px;
+    color: #a95e39;
+    font-family: Athelas;
+    font-size: 61px;
+    margin: 281px 666px 41px 637px;
+}
+
+.team__leaders__line{
+    width: 442px;
+    height: 1px;
+    background-color: #88543a;
+    margin: 40px auto 87px;
+    opacity: 0.3;
+  }
+
+.team__leaders__description {
+    width: 1137px;
+    height: 104px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 30px;
+    letter-spacing: 0.9px;
+    margin: 0 404px 231px 379px;
+}
+
+.leaders__img{
+    width: 1542px;
+    height: 570px;
+    margin: 0 206px 0 172px;
+    display: flex;
+    justify-content: space-around;
+    
+    img{
+        width: 445px;
+        height: 570px;
+    }
+}
+
+.team__leaders__name{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 25.46px;
+    font-family: Helvetica;
+    margin: 48px 318px 0 301px;
+
+    .first__leader {
+        margin-left: 35px;
+        width: 153px;
+        height: 28px;
+      }
+      
+      .second__leader{
+        width: 174px;
+        height: 22px;
+      } 
+      
+      .third__leader {
+        width: 204px;
+        height: 22px;
+      } 
+
+}
+
+.team__leaders__desc{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1460px;
+    height: 70px;
+    font-family: Helvetica;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    margin: 65px 252px 320px 212px;
+
+    .first__desc{
+        width: 380px;
+        height: 70px;
+        margin-left: 30px;
+    }
+    .second__desc{
+        width: 380px;
+        height: 70px;
+        margin-left: 10px;
+    }
+    .third__desc{
+        margin-right: -10px; 
+        width: 380px;
+        height: 70px;
+    }
+}

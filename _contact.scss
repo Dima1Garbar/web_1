@@ -1,0 +1,113 @@
+.contact_us{
+    width: 100%;
+    height: 1435px;
+    background-color: #1b2b31;
+}
+
+.contact__title{
+    position: relative;
+    width: 417px;
+    height: 45px;
+    color: #ffffff;
+    font-family: Athelas;
+    font-size: 65px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin: 0px 739px 0 764px;
+    top: 293px;
+}
+
+.contact__text{
+    position: relative;
+    width: 766px;
+    height: 71px;
+    color: #c0c0c0;
+    font-family: "Quattrocento Sans";
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    margin: 0 566px 0 588px;
+    top: 372px;
+}
+
+.fields__input{
+    position: relative;
+    height: 15px;
+    color: #8f8f8f;
+    font-family: "Quattrocento Sans";
+    font-size: 22px;
+    letter-spacing: 0.4px;
+    background-color: transparent;
+    padding: 14px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+#name{
+    top: 487px;
+    width: 498px;
+    margin: 0 40px 0px 467px;
+  
+}
+
+#category{
+    top: 487px;
+    width: 498px;
+}
+
+#phone{
+    top: 530px;
+    width: 498px;
+    margin: 0px 40px 0px 469px;
+}
+
+#city{
+    top: 530px;
+    width: 498px;
+}
+
+#email{
+    position: relative;
+    height: 16px;
+    color: #8f8f8f;
+    font-family: "Quattrocento Sans";
+    font-size: 22px;
+    letter-spacing: 0.4px;
+    background-color: transparent;
+    padding: 14px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bfbfbf;
+    width: 1070px;
+    margin: 0px 0 0 467px;
+    top: 580px;
+    
+}
+
+#message{
+    position: relative;
+    height: 20px;
+    color: #8f8f8f;
+    font-family: "Quattrocento Sans";
+    font-size: 22px;
+    letter-spacing: 0.4px;
+    background-color: transparent;
+    margin: 0px 0 0 467px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bfbfbf;
+    width: 1100px;
+    min-height: 146px;
+    top: 650px;
+}
+
+.button{
+    position: relative;
+    width: 241px;
+    height: 73px;
+    border: 2px solid #623621;
+    background-color: #89553b;
+    margin: 0px 0 0 1327px;
+    top: 724px;
+
+}

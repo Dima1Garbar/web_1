@@ -1,0 +1,49 @@
+.title__intro{
+    // position: relative;
+    background: url(foto/logo.jpg) center no-repeat;
+    width: 100%;
+    height: 774px;
+}
+
+.title__bar{
+    width: 100%;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+}
+
+.title__a{
+    margin: 0 40px;
+    line-height: 77px;
+    text-decoration: none;
+    color: white;
+    &:hover{
+        background-color: #00b4f0a4;}
+}
+
+.title__welcome {
+    max-width: 516px;
+    height: 125px;
+    margin: 458px 143px 114px 1259px;
+}
+
+.title__welcome_to{
+    width: 100%;
+    height: 51px;
+    color: #fcf9f7;
+    font-family: Baskerville;
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.title__yourcompany{
+    width: 509px;
+    height: 31px;
+    letter-spacing: -2px;
+    margin-top: 41px;
+    color: #d7794a;
+    font-family: Athelas;
+    font-size: 48px;
+    font-weight: 400;
+}

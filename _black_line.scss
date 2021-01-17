@@ -1,0 +1,26 @@
+.black_line{
+    position: absolute;
+    width: 100%;
+    height: 91px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.black_line__copyright{
+    width: 612px;
+    height: 22px;
+    color: #cdcbcb;
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    letter-spacing: 0.6px;
+    margin: 36px 0 0 173px;
+}
+.black_line__icons{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    height: 42px;
+    margin: 36px 181px 0 0;
+}

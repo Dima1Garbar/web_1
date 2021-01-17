@@ -1,0 +1,65 @@
+.title__button{
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 40px;
+}
+
+.line_1{
+    width: 77px;
+    height: 1px;
+    background-color: blueviolet;
+}
+.line_2{
+    width: 77px;
+    height: 1px;
+    background-color: chocolate;
+}
+.line_3{
+    width: 77px;
+    height: 1px;
+    background-color: cornflowerblue;  
+}
+
+@keyframes first {
+    0% {
+        width: 77px;
+        height: 1px;
+    }
+    
+    100%{
+        width: 0;
+        height: 0;
+    }
+    }
+    @keyframes second {
+        0% {
+            width: 77px;
+            height: 1px;
+            transform: rotate(0);
+        }
+        100%{
+            text-align: center;
+            height: 1;
+            width: 87px;
+            margin-top: 40px;
+            transform: rotate(45deg);
+        }
+    } 
+    @keyframes third{
+        0% {
+            width: 77px;
+            height: 1px;
+            transform: rotate(0);
+        }
+        100%{
+            text-align: center;
+            height: 1;
+            width: 87px;
+            margin-bottom: 35px;
+            transform: rotate(-45deg);
+        }
+    } 

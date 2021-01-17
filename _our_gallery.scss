@@ -1,0 +1,86 @@
+.our_gallery{
+    width: 100%;
+    height: 1258px;
+}
+
+.our_gallery__title{
+    width: 493px;
+    height: 49px;
+    color: #a95e39;
+    font-family: Athelas;
+    font-size: 67px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin: 188px 658px 92px 769px;
+}
+
+.our_gallery__text{
+    width: 1508px;
+    height: 114px;
+    margin: 0 190px 160px 222px;
+    font-size: 45px;
+}
+
+.gallery__photo {
+    margin-top: 160px;
+    height: 770px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .photo_slider__one {
+        background: url(https://kak-eto-sdelano.ru/wp-content/uploads/2015/08/open-space-1.jpg) center no-repeat;
+    }
+
+    .photo_slider__two {
+        background: url(https://md-eksperiment.org/images/posts/1922ea8a-aec2-4861-b0ba-b99baad2813d.jpeg) center no-repeat
+    }
+
+    .photo_slider__three {
+        background: url(https://d1g0wnc5fu8si1.cloudfront.net/thekey/images/gallery-images/NUhtDQI5B83bn5MuydD5vjjnUZA2bGJ240LeeuMM.jpeg) center no-repeat;
+    }
+
+    .photo_slider__four {
+        background: url(https://www.topdom.ru/uploaded/article/office-planning/12.jpg) center no-repeat;
+    }
+
+    .photo_slider__five {
+        background: url(https://images.aif.ru/016/623/0360809ef565967522769fba79c502ac.JPG) center no-repeat;
+    }
+
+    .photo_slider {
+        height: 770px;
+        width: 390px;
+        background-size: cover;
+    }
+}
+
+.under_footer {
+    width: 100%;
+    height: 77px;
+    background: #d6d6d6;
+    
+    .button__slik {
+        display: flex;
+        justify-content: space-between;
+
+        .buttons{
+            width: 53px;
+            height: 53px;
+            background: transparent;
+            border-radius: 50%;
+            border: 2px solid orange;
+            font-size: 19px;
+            font-family: Font Awesome;
+            color: #985336;
+            transition: .2s linear;
+            outline:  none;
+            margin: 11px 56px;
+            &:hover{
+                background: black;
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+}
